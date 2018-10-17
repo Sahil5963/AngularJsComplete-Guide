@@ -1,0 +1,11 @@
+
+<!-- <a href="" class="list-group-item list-group-item-action flex-column align-items-start">
+<h5 class="mb-1">{{ personObject.name }}</h5>
+<p class="mb-1">{{ formattedDescriptionFunction({ aperson : personObject }) }}</p>
+</a> -->
+
+<a href="" class="list-group-item list-group-item-action flex-column align-items-start">
+    <h5 class="mb-1">{{ personObject.name }}</h5>
+    <p class="mb-1">{{ personObject.description }}</p>
+    <small><ng-transclude></ng-transclude></small>
+    </a>

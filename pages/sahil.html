@@ -1,0 +1,16 @@
+<h1>Sahil</h1>
+<!-- <input type="text" ng-model="name"/> -->
+
+<br>
+<h2>Search Results</h2>
+<!-- <div class="list-group">
+    <search-result person-name="{{ person.name }}" person-description="{{ person.description }}" ></search-result>
+    <search-result person-object="person" formatted-description-function="formattedDescription(aperson)"></search-result>
+</div> -->
+<br>
+<hr>
+<br>
+
+<div class="list-group">
+    <search-result person-object="person" ng-repeat="person in persons"> Hey There I am an Transclude</search-result>
+</div>
